@@ -36,7 +36,7 @@ class Processinfo(object):
 def main():
     if (len(sys.argv) == 1):
         print("Plese Provide arguments in the following order: 1. Movie Name 2. Similarity Functions")
-        print("Option for similarity functions are: \n a. CosineSimilarity \n b. Jaccard similarity c. Pearson Similairy")
+        print("Option for similarity functions are: \n a. CosineSimilarity \n b. Jaccard similarity \n c. Pearson Similairy")
         sys.exit(0)
     obj = Processinfo("MovieSimilarities")
     conf = obj.connection;
